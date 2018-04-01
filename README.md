@@ -19,8 +19,8 @@ Preparations before installation
 --------------------------------
 1. Make Windows show its file extensions if it doesn't do that already. See
 https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/. 
-2. At first, select a light Firefox theme: hamburger menu > Customize > Themes. The theme in my
-example is Silky Blue, which you can download from the Firefox Themes site.
+2. At first, select a light extra Firefox theme: hamburger menu > Customize > Themes. The theme 
+in this example is Silky Blue, which you can download from the Firefox Themes site.
 
 
 Installation
@@ -44,7 +44,7 @@ internal CSS rules sometimes differ from web CSS rules. And its logic regarding 
 and layers differs from (valid) HTML as well.
 
 But you can and should change the tab text color to a light one if you want a dark theme.
-For CSS color names and codes, see https://www.w3schools.com/colors/colors_shades.asp.
+For CSS color names and codes, see https://www.w3schools.com/colors/colors_names.asp.
 The variables in the file that you can change without risk are followed by the comment
 'customizable'. To open the CSS file after being installed, right-click > Open with > Notepad.
 
