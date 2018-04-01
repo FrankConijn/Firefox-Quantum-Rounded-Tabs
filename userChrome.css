@@ -26,7 +26,7 @@ I like to hear how you like it.
 .tabbrowser-tab {
     box-sizing: border-box;
     margin: 0 1px 0 1px !important;
-	border-radius: 5px 5px 0 0 !important;
+    border-radius: 5px 5px 0 0 !important;
 }
 
 
@@ -45,7 +45,7 @@ I like to hear how you like it.
 
 .tab-background {
     border: none !important;
-	border-radius: 5px 5px 0 0 !important;
+    border-radius: 5px 5px 0 0 !important;
     background: black;
     opacity: .1;
 }
