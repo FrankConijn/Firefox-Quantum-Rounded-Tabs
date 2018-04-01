@@ -1,4 +1,4 @@
-# Firefox Quantum Rounded Tabs
+# Firefox Quantum Rounded Tabs v. 1.1 (change log at the bottom)
 
 What it does
 --------------
@@ -53,3 +53,8 @@ Problems and other comments
 ---------------------------
 If you would encounter a problem and have a Github account, please start a <a href="https://github.com/FrankConijn/Firefox-Quantum-Rounded-Tabs/issues/new">New Issue</a>. Other comments are 
 welcome at f [dot] conijn [at] conijnconsultancy [dot] com. 
+
+
+Change log
+----------
+v. 1.1: Split the tab text color coding into two parts, one for all tabs and one for only the selected tab. 
