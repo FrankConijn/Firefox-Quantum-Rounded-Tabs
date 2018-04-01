@@ -1,4 +1,4 @@
-# Firefox-Quantum-Rounded-Tabs
+# Firefox Quantum Rounded Tabs
 
 What it does
 --------------
