@@ -18,7 +18,7 @@ well.
 Preparations before installation
 --------------------------------
 1. Make Windows show its file extensions if it doesn't do that already. See
-https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/
+https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/. 
 2. At first, select a light Firefox theme: hamburger menu > Customize > Themes. The theme in my
 example is Silky Blue, which you can download from the Firefox Themes site.
 
