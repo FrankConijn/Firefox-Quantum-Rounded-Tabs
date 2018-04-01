@@ -1,7 +1,5 @@
 # Firefox Quantum Rounded Tabs v. 1.1
 
-
-
 What it does
 --------------
 This one-small-file solution re-shapes Firefox Quantum's default tabs by:
