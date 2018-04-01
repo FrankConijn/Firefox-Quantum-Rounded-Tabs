@@ -1,7 +1,7 @@
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*\
 
                             ===================================
-                            FIREFOX QUANTUM ROUNDED TABS V. 1.0
+                            FIREFOX QUANTUM ROUNDED TABS V. 1.1
                             ===================================
 
 
@@ -30,7 +30,11 @@ I like to hear how you like it.
 }
 
 
-.tabbrowser-tab .tab-text.tab-label, 
+.tabbrowser-tab .tab-text.tab-label {
+    color: black !important;            /* tab text color - customizable */
+}
+
+
 .tabbrowser-tab[selected="true"] .tab-text.tab-label {
     color: black !important;            /* tab text color - customizable */
 }
