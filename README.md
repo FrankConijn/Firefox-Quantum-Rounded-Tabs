@@ -1,4 +1,4 @@
-# Firefox Quantum Rounded Tabs v. 1.1 (change log at the bottom)
+# Firefox Quantum Rounded Tabs v. 1.1
 
 What it does
 --------------
