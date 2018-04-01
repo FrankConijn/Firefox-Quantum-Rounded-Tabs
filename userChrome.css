@@ -12,7 +12,7 @@ internal CSS rules sometimes differ from web CSS rules. And its logic regarding 
 layers differs from (valid) HTML as well.
 
 But you can and should change the tab text color to a light one if you want a dark theme.
-For CSS color names and codes, see https://www.w3schools.com/colors/colors_shades.asp.
+For CSS color names and codes, see https://www.w3schools.com/colors/colors_names.asp.
 The variables in this file that you can change without risk are followed by the comment
 'customizable'.
 
