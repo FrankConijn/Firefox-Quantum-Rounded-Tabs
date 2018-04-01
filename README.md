@@ -1,5 +1,7 @@
 # Firefox Quantum Rounded Tabs v. 1.1
 
+
+
 What it does
 --------------
 This one-small-file solution re-shapes Firefox Quantum's default tabs by:
@@ -7,8 +9,8 @@ This one-small-file solution re-shapes Firefox Quantum's default tabs by:
 * rounding the top corners;
 * slightly separating and outlining the tabs.
 
-See the screenshot (click link > click Download for a bigger display). That example has a light background, 
-but you can also have a dark one. See the CSS file for that.
+See the screenshot (click link Silky Blue theme > click Download for a bigger display). That 
+example has a light background, but you can also have a dark one. See the CSS file for that.
 
 The file also colors the Bookmarks icons orange and removes 3 of the 4 objects in the address
 bar. The applicable rules are at the bottom of the file, self-explanatory and customizable as 
