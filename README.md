@@ -28,7 +28,7 @@ Installation
 1. Type about:support in Firefox's address bar and press Enter.
 2. On the appearing page, you will see 'Profile folder' in the left column. Click 'Open folder'.
 3. In the appearing window, at the top, click 'New folder'. Give the folder the name chrome.
-4. Copy or move this file to that folder.
+4. Copy or move the CSS file to that folder.
 5. Close & restart Firefox and enjoy your new interface. :-)
 
 
