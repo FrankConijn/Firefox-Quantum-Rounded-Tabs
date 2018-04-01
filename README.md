@@ -2,7 +2,7 @@
 
 What it does
 --------------
-This one-file solution re-shapes Firefox Quantum's default tabs by:
+This one-small-file solution re-shapes Firefox Quantum's default tabs by:
 * removing the light line at the top of the selected tab;
 * rounding the top corners;
 * slightly separating and outlining the tabs.
@@ -49,4 +49,5 @@ The variables in the file that you can change without risk are followed by the c
 'customizable'.
 
 
-I like to hear how you like it: f [dot] conijn [at] conijnconsultancy [dot] com. 
+If you would encounter a problem and have a Github account, start a <a href="https://github.com/FrankConijn/Firefox-Quantum-Rounded-Tabs/issues/new">New Issue</a>. Other comments are 
+welcome at f [dot] conijn [at] conijnconsultancy [dot] com. 
