@@ -40,8 +40,8 @@ Simply delete the file or the whole chrome folder, and restart Firefox.
 Customization
 -------------
 You have to be very careful with that, even if you know CSS. The problem is that Firefox's
-internal CSS rules sometimes differ from web CSS rules. And its logic regarding the
-'document object model' differs from (valid) HTML as well.
+internal CSS rules sometimes differ from web CSS rules. And its logic regarding classes and IDs 
+differ from (valid) HTML as well.
 
 But you can and should change the tab text color to a light one if you want a dark theme.
 For CSS color names and codes, see https://www.w3schools.com/colors/colors_shades.asp.
