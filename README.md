@@ -16,16 +16,16 @@ bar. The applicable rules are at the bottom of the file, self-explanatory and cu
 well.
 
 
-Preparations before installation:
----------------------------------
+Preparations before installation
+--------------------------------
 1. Make Windows show its file extensions if it doesn't do that already. See
 https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/
 2. At first, select a light Firefox theme: hamburger menu > Customize > Themes. The theme in my
 example is Silky Blue, which you can download from the Firefox Themes site.
 
 
-Installation:
--------------
+Installation
+------------
 1. Type about:support in Firefox's address bar and press Enter.
 2. On the appearing page, you will see 'Profile folder' in the left column. Click 'Open folder'.
 3. In the appearing window, at the top, click 'New folder'. Give the folder the name chrome.
@@ -33,13 +33,13 @@ Installation:
 5. Close & restart Firefox and enjoy your new interface. :-)
 
 
-Going back to default:
-----------------------
+Going back to default
+---------------------
 Simply delete the file or the whole chrome folder, and restart Firefox.
 
 
-Customization:
---------------
+Customization
+-------------
 You have to be very careful with that, even if you know CSS. The problem is that Firefox's
 internal CSS rules sometimes differ from web CSS rules. And its logic regarding the
 'document object model' differs from (valid) HTML as well.
