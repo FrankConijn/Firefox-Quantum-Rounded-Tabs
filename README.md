@@ -46,7 +46,7 @@ and layers differs from (valid) HTML as well.
 But you can and should change the tab text color to a light one if you want a dark theme.
 For CSS color names and codes, see https://www.w3schools.com/colors/colors_shades.asp.
 The variables in the file that you can change without risk are followed by the comment
-'customizable'.
+'customizable'. To open the CSS file after being installed, right-click > Open with > Notepad.
 
 
 Problems and other comments
