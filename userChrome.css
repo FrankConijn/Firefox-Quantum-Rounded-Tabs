@@ -107,24 +107,10 @@ For comments and questions: see the mentioned Github page. I like to hear how yo
 }
 
 
-/*
-.tabs-newtab-button.toolbarbutton-1:hover {
-    box-sizing: border-box !important;
-    border-radius: 6px 61px 0 0 !important;
-    b/ackground: red;
-}
-
-.titlebar-placeholder[type="pre-tabs"] {
-    border-inline-end: initial !important;
-}
-*/
-
-
 [tabsintitlebar]:root:not([extradragspace]) .tabbrowser-tab::after,
 .tabbrowser-tab:hover::after,
 #tabbrowser-tabs:not([movingtab])>.tabbrowser-tab[beforehovered]::after {
     border: none !important;                /* leave as is; affects the New Tab icon (the plus) */
-    border-radius: 5px 5px 0 0 !important;  /* doesn't work */ 
 }
 
 
