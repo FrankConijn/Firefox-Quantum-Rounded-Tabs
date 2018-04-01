@@ -25,9 +25,9 @@ example is Silky Blue, which you can download from the Firefox Themes site.
 
 Installation
 ------------
-1. Type about:support in Firefox's address bar and press Enter.
+1. Type <code>about:support</code> in Firefox's address bar and press Enter.
 2. On the appearing page, you will see 'Profile folder' in the left column. Click 'Open folder'.
-3. In the appearing window, at the top, click 'New folder'. Give the folder the name chrome.
+3. In the appearing window, at the top, click 'New folder'. Give the folder the name <code>chrome</code>.
 4. Copy or move the CSS file to that folder.
 5. Close & restart Firefox and enjoy your new interface. :-)
 
@@ -49,4 +49,4 @@ The variables in the file that you can change without risk are followed by the c
 'customizable'.
 
 
-I like to hear how you like it.
+I like to hear how you like it: f [dot] conijn [at] conijnconsultancy [dot] com. 
