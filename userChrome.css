@@ -5,42 +5,6 @@
                             ===================================
 
 
-What it does
---------------
-This one-file solution re-shapes Firefox Quantum's default tabs by:
-* removing the light line at the top of the selected tab;
-* rounding the top corners;
-* slightly separating and defining the tabs.
-
-See the example image. That image has a light background, but you can also have a dark one.
-See later for that.
-
-This file also colors the Bookmarks icons orange and removes 3 of the 4 objects in the address
-bar. The applicable rules are at the bottom, self-explanatory and customizable as well.
-
-
-Preparations before installation:
----------------------------------
-1. Make Windows show its file extensions if it doesn't do that already. See
-https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/
-2. At first, select a light Firefox theme: hamburger menu > Customize > Themes. The theme in my
-example is Silky Blue, which you can download from the Firefox Themes site.
-
-
-Installation:
--------------
-1. Type about:support in Firefox's address bar and press Enter.
-2. On the appearing page, you will see 'Profile folder' in the left column. Click 'Open folder'.
-3. In the appearing window, at the top, click 'New folder'. Give the folder the name chrome.
-4. Copy or move this file to that folder.
-5. Close & restart Firefox and enjoy your new interface. :-)
-
-
-Going back to default:
-----------------------
-Simply delete this file or the whole chrome folder, and restart Firefox.
-
-
 Customization:
 --------------
 You have to be very careful with that, even if you know CSS. The problem is that Firefox's
@@ -53,7 +17,8 @@ The variables in this file that you can change without risk are followed by the 
 'customizable'.
 
 
-For comments and questions: see the mentioned Github page. I like to hear how you like it.
+For version updates and comments: see https://github.com/FrankConijn/Firefox-Quantum-Rounded-Tabs. 
+I like to hear how you like it.
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
