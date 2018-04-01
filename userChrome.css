@@ -1,0 +1,148 @@
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*\
+
+                            ===================================
+                            FIREFOX QUANTUM ROUNDED TABS V. 1.0
+                            ===================================
+
+
+What it does
+--------------
+This one-file solution re-shapes Firefox Quantum's default tabs by:
+* removing the light line at the top of the selected tab;
+* rounding the top corners;
+* slightly separating the tabs.
+
+See the example image. That image has a light background, but you can also have a dark one.
+See later for that.
+
+This file also colors the Bookmarks icons orange and removes 3 of the 4 objects in the address
+bar. The applicable rules are at the bottom, self-explanatory and customizable as well.
+
+
+Preparations before installation:
+---------------------------------
+1. Make Windows show its file extensions if it doesn't do that already. See
+https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/
+2. At first, select a light Firefox theme: hamburger menu > Customize > Themes. The theme in my
+example is Silky Blue, which you can download from the Firefox Themes site.
+
+
+Installation:
+-------------
+1. Type about:support in Firefox's address bar and press Enter.
+2. On the appearing page, you will see 'Profile folder' in the left column. Click 'Open folder'.
+3. In the appearing window, at the top, click 'New folder'. Give the folder the name chrome.
+4. Copy or move this file to that folder.
+5. Close & restart Firefox and enjoy your new interface. :-)
+
+
+Going back to default:
+----------------------
+Simply delete this file or the whole chrome folder, and restart Firefox.
+
+
+Customization:
+--------------
+You have to be very careful with that, even if you know CSS. The problem is that Firefox's
+internal CSS rules sometimes differ from web CSS rules. And its logic regarding the
+'document object model' differs from (valid) HTML as well.
+
+But you can and should change the tab text color to a light one if you want a dark theme.
+For CSS color names and codes, see https://www.w3schools.com/colors/colors_shades.asp.
+The variables in this file that you can change without risk are followed by the comment
+'customizable'.
+
+
+For comments and questions: see the mentioned Github page. I like to hear how you like it.
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+.tabbrowser-tab {
+    box-sizing: border-box;
+    margin: 0 1px 0 1px !important;
+	border-radius: 5px 5px 0 0 !important;
+}
+
+
+.tabbrowser-tab .tab-text.tab-label, 
+.tabbrowser-tab[selected="true"] .tab-text.tab-label {
+    color: black !important;            /* tab text color - customizable */
+}
+
+
+.tabbrowser-tab[selected="true"] .tab-background {
+    border: 1px solid gray !important;
+    border-bottom: none !important;
+    opacity: 1;
+}
+
+
+.tab-background {
+    border: none !important;
+	border-radius: 5px 5px 0 0 !important;
+    background: black;
+    opacity: .1;
+}
+
+
+.tab-line {                             /* = light top line in selected tab in Quantum default */
+    display: none !important;
+}
+
+
+.tabbrowser-tab:hover,
+.tabbrowser-tab .tab-text.tab-label:hover {
+    cursor: pointer !important; 
+}
+
+
+.tabbrowser-tab:hover {
+    border: 1px solid grey !important;
+}
+
+
+.tabbrowser-tab[selected="true"]:hover {
+    border: none !important;
+}
+
+
+/*
+.tabs-newtab-button.toolbarbutton-1:hover {
+    box-sizing: border-box !important;
+    border-radius: 6px 61px 0 0 !important;
+    b/ackground: red;
+}
+
+.titlebar-placeholder[type="pre-tabs"] {
+    border-inline-end: initial !important;
+}
+*/
+
+
+[tabsintitlebar]:root:not([extradragspace]) .tabbrowser-tab::after,
+.tabbrowser-tab:hover::after,
+#tabbrowser-tabs:not([movingtab])>.tabbrowser-tab[beforehovered]::after {
+    border: none !important;                /* leave as is; affects the New Tab icon (the plus) */
+    border-radius: 5px 5px 0 0 !important;  /* doesn't work */ 
+}
+
+
+/* BOOKMARK ICON COLORIZATION */
+
+#bookmarks-view treechildren::-moz-tree-image(container),
+#PlacesToolbarItems toolbarbutton[container="true"] .toolbarbutton-icon,
+#PlacesToolbarItems menu[container="true"] .menu-iconic-left,
+#BMB_bookmarksPopup menu[container="true"] .menu-iconic-icon,
+#bookmarksMenu menu[container="true"] .menu-iconic-icon {
+    fill: #FFCC00 !important;               /* orange; customizable */
+    margin-right: 8px;                      /* correction for the Firefox default imperfection */
+}
+
+
+/* ADDRESS BAR ICONS CLEAN-UP */
+
+#pageActionSeparator, #pocket-button, #pageActionButton {
+    display: none !important;               /* customizable: delete if you want the objects back */
+}
+
