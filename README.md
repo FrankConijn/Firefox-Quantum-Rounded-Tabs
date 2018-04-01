@@ -5,8 +5,7 @@ What it does
 This one-file solution re-shapes Firefox Quantum's default tabs by:
 * removing the light line at the top of the selected tab;
 * rounding the top corners;
-* slightly separating the tabs;
-* making them semi-transparant.
+* slightly separating and outlining the tabs.
 
 See the example image. That image has a light background, but you can also have a dark one.
 See the CSS file for that.
