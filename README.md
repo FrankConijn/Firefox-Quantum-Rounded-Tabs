@@ -49,5 +49,7 @@ The variables in the file that you can change without risk are followed by the c
 'customizable'.
 
 
-If you would encounter a problem and have a Github account, start a <a href="https://github.com/FrankConijn/Firefox-Quantum-Rounded-Tabs/issues/new">New Issue</a>. Other comments are 
+Problems and other comments
+---------------------------
+If you would encounter a problem and have a Github account, please start a <a href="https://github.com/FrankConijn/Firefox-Quantum-Rounded-Tabs/issues/new">New Issue</a>. Other comments are 
 welcome at f [dot] conijn [at] conijnconsultancy [dot] com. 
