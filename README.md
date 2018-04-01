@@ -7,8 +7,8 @@ This one-file solution re-shapes Firefox Quantum's default tabs by:
 * rounding the top corners;
 * slightly separating and outlining the tabs.
 
-See the example image. That image has a light background, but you can also have a dark one.
-See the CSS file for that.
+See the example image (right-click > View image to enlarge). That image has a light background, 
+but you can also have a dark one. See the CSS file for that.
 
 The file also colors the Bookmarks icons orange and removes 3 of the 4 objects in the address
 bar. The applicable rules are at the bottom of the file, self-explanatory and customizable as 
