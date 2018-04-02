@@ -2,7 +2,7 @@
 
 What it does
 --------------
-This one-small-file solution re-shapes Firefox Quantum's default tabs by:
+This one-simple-file solution re-shapes Firefox Quantum's default tabs by:
 * removing the light line at the top of the selected tab;
 * rounding the top corners;
 * slightly separating and outlining the tabs.
