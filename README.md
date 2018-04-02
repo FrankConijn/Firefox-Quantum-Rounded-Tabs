@@ -34,7 +34,7 @@ Installation
 
 Going back to default
 ---------------------
-Simply delete the file or the whole chrome folder, and restart Firefox.
+Simply delete the file or the whole chrome folder and restart Firefox.
 
 
 Customization
