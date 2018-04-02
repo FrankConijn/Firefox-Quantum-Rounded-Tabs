@@ -7,7 +7,7 @@ This one-small-file solution re-shapes Firefox Quantum's default tabs by:
 * rounding the top corners;
 * slightly separating and outlining the tabs.
 
-See the screenshot (click link Silky Blue theme > click Download for a bigger display). That 
+See the screenshot (screenshots > Silky Blue > click Download for a bigger display). That 
 example has a light background, but you can also have a dark one. See the CSS file for that.
 
 The file also colors the Bookmarks icons orange and removes 3 of the 4 objects in the address
