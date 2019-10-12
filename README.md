@@ -22,7 +22,7 @@ Preparations before installation
 https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/. 
 2. At first, select a light extra Firefox theme: hamburger menu > Customize > Themes. The theme 
 Silky Blue can be downloaded from the Firefox Themes site.
-3. Type `about:config` in the Firefox address bar and press Enter. Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and check that it's set to `true`. This makes FF look for and use the custom stylesheet. 
+3. Type `about:config` in the Firefox address bar and press Enter. Search for `toolkit.legacyUserProfileCustomizations.stylesheets`. If there is such a rule, check that it's set to `true`. If not, continue with the installation. 
 
 
 Installation
