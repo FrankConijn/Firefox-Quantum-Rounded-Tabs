@@ -3,7 +3,7 @@
 What it does
 --------------
 This one-simple-file solution reshapes Firefox Quantum's default tabs by:
-* removing the light line at the top of the selected tab;
+* removing the bold line at the top of the selected tab;
 * rounding the top corners;
 * slightly separating and outlining the tabs.
 
@@ -22,15 +22,15 @@ Preparations before installation
 https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/. 
 2. At first, select a light extra Firefox theme: hamburger menu > Customize > Themes. The theme 
 Silky Blue can be downloaded from the Firefox Themes site.
-3. Type `about:config` in the Firefox address bar and press Enter. Search for `toolkit.legacyUserProfileCustomizations.stylesheets`. If there is such a rule, check that it's set to `true`. If not, continue with the installation. 
+3. Type `about:config` in the Firefox address bar and press Enter. Search for `toolkit.legacyUserProfileCustomizations.stylesheets`. If there is such a rule, check that it's set to `true`. If no such rule, simply continue with the installation. 
 
 
 Installation
 ------------
 1. Type <code>about:support</code> in Firefox's address bar and press Enter.
 2. On the appearing page, you will see 'Profile folder' in the left column. Click 'Open folder'.
-3. In the appearing window, at the top, click 'New folder'. Give the folder the name <code>chrome</code>.
-4. Copy or move the CSS file to that folder.
+3. In the appearing window, right-click and click 'New folder'. Give the folder the name <code>chrome</code>.
+4. Move the downloaded and unzipped userChrome.css file to that folder.
 5. Close & restart Firefox and enjoy your new interface. :-)
 
 
